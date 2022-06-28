@@ -199,7 +199,8 @@ nav {
 .Header-section img{
   position: absolute;
   right: 85px;
-  top: 50px;
+  top: 40px;
+  border-radius: 50%;
 }
 
 .Header-section .About{

@@ -199,7 +199,7 @@ nav {
 .Header-section img{
   position: absolute;
   right: 85px;
-  top: 11%;
+  top: 57px;
 }
 
 .Header-section .About{
@@ -211,6 +211,11 @@ nav {
   border-radius: 20px;
   background: #3498db;
   color: #fff;
+  border: none;
+}
+.Header-section .About:hover{
+  background: #fff;
+  color: #3498db;
 }
 
 .Header-section .Messege {
@@ -221,9 +226,14 @@ nav {
   left: 30%;
   border-radius: 20px;
   color: #3498db;
+  border: none;
 }
 
+.Header-section .Messege:hover{
+  background: #3498db;
+  color: #fff;
 
+}
 
 
 

@@ -82,7 +82,7 @@ nav {
 
 
 .Header-section nav .fa-bars {
-  display: block;
+  display: inline-block;
   color: #81ecec;
   margin: 10px;
   font-size: 22px;
@@ -95,7 +95,7 @@ nav {
 }
 
 .Header-section nav .fa-times {
-  display: block;
+  display:inline-block;
   color: #34495e;
   margin: 10px;
   font-size: 22px;

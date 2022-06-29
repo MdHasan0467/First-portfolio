@@ -22,3 +22,46 @@ var navLinks = document.getElementById("navLinks");
 }
   
 //----------------End Menu Bar Here
+
+
+//------------------Start Time From Here
+var time = document.getElementById("current-time");
+
+
+setInterval(() => {
+   let d = new Date();
+
+   time.innerHTML = d.toLocaleTimeString();
+},1000) //---1000 means 1000 mili seconds or 1 second
+
+//------------------End time section here
+
+//-----------------Start Image slider from here
+
+//-----It come from "Swiper.com" Then, "get started" And Then,"Initialize Swiper"-----Copy the link and paste here Some Edit--Starting pont
+
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  autoplay: {
+    delay:2000, //2000 means mili second Or 2 seconds
+    disableOnInteraction:false,
+  },
+  loop: true,
+    
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+
+//--------It come from "Swiper.com" Then, "get started" And Then,"Initialize Swiper"-----Copy the link and paste here--Ending pont
+
+//----------------------------End Image slider here
